@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+            <link rel="stylesheet" href="./forms.css">
+            <script src="./forms.js"> </script>
+            <div class="main">
+                <nav class="navbar">
+                    <div style="padding-left: 20px;">Library system</div>
+                    <ul>
+                        <li><button href="#" onclick="scrollToBooksTable()" class="nav_buttons">Books</button></li>
+                        <li><button href="#" onclick="scrollToRegisterForm()" class="nav_buttons">Register</button></li>
+                        <li>Contact us</li>
+                        <li>Logout</li>
+                    </ul>
+                    
+
+                </nav>
+                <div class="books">
+                    <div style="font-weight: bold; font-size: large; text-align: left;">Books</div><br>
+                    <table class="books_table" cell-padding="15">
+                        <tr>
+                            <th>Book Id</th>
+                            <th>Title</th>
+                            <th>Author</th>
+                            <th>Genre</th>
+                            <th>Availability</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td><a href="#">Book 1</a> <br>
+                            <table class="book_info">
+                                <tr>Publication Date: 2000</tr></br>
+                                <tr>Page Count: 250</tr><br>
+                                <tr>ISBN: 123-456-78-909</tr><br>
+                            </table>
+                            </td>
+                            <td>Author Name 1</td>
+                            <td>Genre 1</td>
+                            <td>Availability 1</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td><a href="#">Book 2</a> <br>
+                                <table class="book_info">
+                                    <tr>Publication Date: 2000</tr></br>
+                                    <tr>Page Count: 250</tr><br>
+                                    <tr>ISBN: 123-456-78-909</tr><br>
+                                </table>
+                            
+                            </td>
+                            <td>Author Name 2</td>
+                            <td>Genre 2</td>
+                            <td>Availability 2</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td><a href="#">Book 3</a> <br>
+                                <table class="book_info">
+                                    <tr>Publication Date: 2000</tr></br>
+                                    <tr>Page Count: 250</tr><br>
+                                    <tr>ISBN: 123-456-78-909</tr><br>
+                                </table>
+                            </td>
+                            <td>Author Name 3</td>
+                            <td>Genre 3</td>
+                            <td>Availability 3</td>
+                        </tr>
+                    
+                    </table>
+                </div>
+                <form class="register_form">
+                    <div style="font-weight: bold; font-size: large; text-align: left;">Register Form</div><br>
+                    <label>First Name</label><br>
+                    <input type="text" placeholder="First Name" class="form_inputs"><br>
+                    <label>Last Name</label><br>
+                    <input type="text" placeholder="Last Name" class="form_inputs"><br>
+                    <label>Date of birth</label><br>
+                    <input type="date" class="form_inputs"><br>
+                    <label>Email</label><br>
+                    <input type="email" placeholder="abc@gmail.com" class="form_inputs"><br>
+                    <label>Password</label><br>
+                    <input type="password" placeholder="please enter your password" class="form_inputs"><br>
+                    <label>Confirm password</label><br>
+                    <input type="password" placeholder="re-enter to Confirm password" class="form_inputs"><br>
+
+                    <input type="submit" value="Register" class="register-btn">
+                </form>
+            </div>
+        </body>
+    </head>
+</html>
